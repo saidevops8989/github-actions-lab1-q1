@@ -6,6 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    uses: actions/checkout@v4
 
     steps:
     - name: Set up Python 3.11
